@@ -1,1 +1,5 @@
-/rvenv
+rvenv/
+__pycache__/
+__pycache__/
+.rasa/
+models/
