@@ -11,21 +11,29 @@
     git clone git@github.com:EliasDemlie/AIchatBot.git
 3. **create vertual environment using python3.8**
    ```bash
-    python3.8 -m venv < ur vertual_environment_name >
+    python3.8 -m venv <ur_vertual_environmentVariable_name>
 4. **install all dependacies**
      
      run:
    ``` bash  
    pip install -r requirements.txt
- 5. **run the rasa server**
+5. **run the rasa server    expose to rest_api**
 
+     run:
+   ```bash
+   rasa run --enable-api --cors "*" --port 5008
+   rasa run --enable-api --cors "allowed_request_url" --port <portNo.>
 
+   
+6. **...**
 
---------------------------------------------------------------------------------
+--------------------------------------------------------------
  *references*
 
-rasa doc about websocket connection
-https://rasa.com/docs/rasa/connectors/your-own-website/#websocket-channel
+* to update/create the requirmwnts.txt   pip freeze > requirements.txt
 
---------------------------------------------------------------------------------
+* rasa doc about websocket connection
+ https://rasa.com/docs/rasa/connectors/your-own-website#websocket-channel
+
+--------------------------------------------------------------
 
