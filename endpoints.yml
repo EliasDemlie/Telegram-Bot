@@ -40,3 +40,12 @@
 #  username: username
 #  password: password
 #  queue: queue
+
+
+# webhook:
+#   url: "http://localhost:5005/webhooks/rest/webhook"
+
+socketio:
+  user_message_evt: user_uttered
+  bot_message_evt: bot_uttered
+  session_persistence: true

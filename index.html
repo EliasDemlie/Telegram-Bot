@@ -6,15 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rasa Chat</title>
 </head>
-
 <body>
     
-    <div id="rasa-chat-widget" data-socket-url="http://localhost:5008/socket.io/"></div>
-    
-    <!-- Older Rasa Chat Widget Script -->
-    <script src="https://unpkg.com/@rasahq/rasa-chat@1.0.0" type="application/javascript"></script>
-
-
+    <div id="rasa-chat-widget" data-websocket-url="ws://localhost:5005/socket.io"></div>
+    <script src="https://unpkg.com/@rasahq/rasa-chat" type="application/javascript"></script>
 
 </body>
 
