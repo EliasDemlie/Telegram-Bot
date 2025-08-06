@@ -21,19 +21,3 @@
 
      run:
    ```bash
-   rasa run --enable-api --cors "*" --port 5008
-   rasa run --enable-api --cors "allowed_request_url" --port <portNo.>
-
-   
-6. **...**
-
---------------------------------------------------------------
- *references*
-
-* to update/create the requirmwnts.txt   pip freeze > requirements.txt
-
-* rasa doc about websocket connection
- https://rasa.com/docs/rasa/connectors/your-own-website#websocket-channel
-
---------------------------------------------------------------
-
