@@ -1,23 +1,15 @@
 # AIchatBot
 
-**steps to run the project on your local machine:**
-1. you have to install compatable python version
-  (python 3.6, 3.7, 3.8, 3.9)
+Telegram  Bot
 
-2. **Clone the repository:**
-      
-      Run:
-    ``` bash 
-    git clone git@github.com:EliasDemlie/AIchatBot.git
-3. **create vertual environment using python3.8**
-   ```bash
-    python3.8 -m venv <ur_vertual_environmentVariable_name>
-4. **install all dependacies**
-     
-     run:
-   ``` bash  
-   pip install -r requirements.txt
-5. **run the rasa server    expose to rest_api**
+A simple Telegram bot using Node.js and MySQL for user registration and forwarding questions to the spesfied group.
 
-     run:
-   ```bash
+Features
+
+Users register with full name and phone number  using /register 
+
+Phone numbers are partially masked when forwarded.
+
+Users can send questions using /askforhelp.
+
+Admins reply in the group, and replies are sent back to the user.
