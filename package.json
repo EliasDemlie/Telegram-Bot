@@ -1,0 +1,28 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "**steps to run the project on your local machine:** 1. you have to install compatable python version   (python 3.6, 3.7, 3.8, 3.9)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EliasDemlie/Telegram-Bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/EliasDemlie/Telegram-Bot/issues"
+  },
+  "homepage": "https://github.com/EliasDemlie/Telegram-Bot#readme",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "fs": "^0.0.1-security",
+    "mysql2": "^3.14.3",
+    "node-telegram-bot-api": "^0.66.0",
+    "telegraf": "^4.16.3"
+  }
+}
